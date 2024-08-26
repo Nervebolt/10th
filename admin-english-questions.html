@@ -1,0 +1,25 @@
+<!-- admin-english-questions.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - English Questions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-subject="english">
+    <div class="container">
+        <h2>Admin - English Questions</h2>
+        <form id="addQuestionForm">
+            <input type="text" id="questionText" placeholder="Enter question" required>
+            <button type="submit">Add Question</button>
+        </form>
+        <ul id="questionsList"></ul>
+        <button id="backBtn">Back to Dashboard</button>
+    </div>
+
+    <script src="firebaseConfig.js"></script>
+    <script src="admin-questions.js"></script>
+</body>
+</html>
